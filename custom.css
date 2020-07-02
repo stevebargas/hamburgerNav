@@ -1,0 +1,43 @@
+
+.navContainer{
+  background: tomato;
+  max-width: 1000px;
+  position: relative;
+  width: 100%;
+
+}
+
+
+.csi-nav{
+  display: inline;
+  background: black;
+}
+
+  .csi-nav ul{
+    white-space:nowrap;
+    display: inline-block;
+  }
+  
+  .csi-nav ul li {
+    display:inline-block;
+    margin-right: 75px;
+  }
+  
+  .csi-nav ul li a{
+    color: #fff;
+  }
+  
+/* This prevents onload flickering on desktop*/
+.hamMenu{
+  display: none;
+}
+
+  .hamMenu svg{
+    width: 32px;
+    position: absolute;
+    right: 15px;
+  }
+
+  
+
+
